@@ -1,17 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <header></header>
     <main>
-        <form action="/ingreso" method=""></form>
-
+        <form action=" ingreso" method="post">
+            <!--Nombre-->
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <!--Apellido-->
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido" required>
+            <!--Gmailuser-->
+            <label for="email">Gmail</label>
+            <input type="email" id="email" name="email" required>
+            <!--Password-->
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" name="password" required>
+            <!--DNI-->
+            <label for="dni">Documento</label>
+            <input type="number" id="dni" name="Documento" required>
+            <!--Localidad-->
+            <fieldset>
+                <legend>Localidad</legend>
+                <label for="Nacion">Nacion</label>
+                <select name="Nacion" id="Nacion">
+                    <option value="argentina">Argentina</option>
+                </select>
+                <label for="provincia">Provincia</label>
+                <select name="provincia" id="provincia">
+                    <option value="rn">Rio Negro</option>
+                </select>
+            </fieldset>
+            <!--Telefono-->
+            <fieldset>
+                <legend>Telefono</legend>
+                <label for="Telefono">Pais</label>
+                <select name="pais" id="pais">
+                    <option value="arg">+54</option>
+                </select>
+                <label for="Telefono">Provincia</label>
+                <select name="region" id="region">
+                    <option value="rionegro">299</option>
+                </select>
+                <input type="tel" id="Telefono" name="Telefono" required>
+            </fieldset>
+            <!--Fecha de nacimiento-->
+            <fieldset>
+                <legend>Fecha de nacimiento</legend>
+                <label for=""></label>
+            </fieldset>
+        </form>
+        </form>
     </main>
     <footer></footer>
 </body>
+
 </html>
