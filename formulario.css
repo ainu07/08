@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+   
+}
+
+html {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(150deg,#191853,#861616);
+    height: 100vh;
+
+  
+}
+main {
+}
+form {
+    background-color: rgb(65, 65, 146);
+    height: 0 auto;
+   width: 50%;
+}
+.padre {
+    display: flex;
+    align-items:flex-end;
+}
+footer {
+
+}

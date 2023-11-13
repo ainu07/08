@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
     <title>Document</title>
 </head>
 
@@ -28,7 +29,7 @@
             <label for="dni">Documento</label>
             <input type="number" id="dni" name="Documento" required>
             <!--Localidad-->
-            <fieldset>
+            <fieldset class="padre">
                 <legend>Localidad</legend>
                 <label for="Nacion">Nacion</label>
                 <select name="Nacion" id="Nacion">
@@ -40,7 +41,7 @@
                 </select>
             </fieldset>
             <!--Telefono-->
-            <fieldset>
+            <fieldset class="padre">
                 <legend>Telefono</legend>
                 <label for="Telefono">Pais</label>
                 <select name="pais" id="pais">
@@ -53,10 +54,10 @@
                 <input type="tel" id="Telefono" name="Telefono" required>
             </fieldset>
             <!--Fecha de nacimiento-->
-            <fieldset>
-                <legend>Fecha de nacimiento</legend>
-                <label for=""></label>
-            </fieldset>
+            <div class="padre">
+                <label for="fecha">Fecha de nacimiento</label>
+            <input type="date" required>
+            </div>
         </form>
         </form>
     </main>
