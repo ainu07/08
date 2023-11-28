@@ -1,29 +1,85 @@
 body {
     text-align: center;
-    display: flex;
-    justify-content: center;
+   flex-direction: column;
    
 }
 
 html {
     display: flex;
     justify-content: center;
-    background: linear-gradient(150deg,#191853,#861616);
+    background: linear-gradient(150deg,#4241a1,#861616);
     height: 100vh;
 
   
 }
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    color: beige;
+    font-family: 'Times New Roman', Times, serif;
+}
+header h1
+{
+color: white;
+font-size: 50px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+nav {
+background-color: rgba(34, 33, 33, 0.801);
+width: 2000px;
+height: 50px;
+}
 main {
+    text-align: center;
+    width: 50%;
+    height: 50%;
+   justify-content: center; 
+   margin: 0 auto;
+   padding: 5%;
 }
 form {
-    background-color: rgb(65, 65, 146);
-    height: 0 auto;
-   width: 50%;
+    background-color: rgba(65, 65, 146, 0.658);
+   margin: 0 auto;
+   justify-content: center;
 }
-.padre {
-    display: flex;
-    align-items:flex-end;
+form,    label {
+    color: #c54b4b;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20   px;
 }
-footer {
-
+.div-1 {
+display: grid;
+}
+.datos {
+   display: flex;
+   justify-content: center;
+}
+.div-2 {
+    display: grid;
+}
+input {
+margin: 10px;
+}
+select {
+    margin: 10px;
+}
+footer ul li {
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+   list-style: none;
+    display: inline-block;
+    text-align: center;
+    padding: 3px;
+}
+.enviar {
+    margin: 5px;
+    color: #c54b4b;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background: none;
+    border: 1px solid white;
+    padding: 10px;
+    margin-top: 15px;
 }

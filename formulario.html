@@ -10,58 +10,95 @@
 </head>
 
 <body>
-    <header></header>
+    <header>
+        <h1>Steam</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>Usuario</li>
+            <li>Equipo</li>
+            <li>Servicio</li>
+        </ul>
+    </nav>
     <main>
         <form action=" ingreso" method="post">
-            <!--Nombre-->
-            <label for="nombre">Nombre</label>
-            <input type="text" id="nombre" name="nombre" required>
-            <!--Apellido-->
-            <label for="apellido">Apellido</label>
-            <input type="text" id="apellido" name="apellido" required>
-            <!--Gmailuser-->
-            <label for="email">Gmail</label>
-            <input type="email" id="email" name="email" required>
-            <!--Password-->
-            <label for="password">Contraseña</label>
-            <input type="password" id="password" name="password" required>
-            <!--DNI-->
-            <label for="dni">Documento</label>
-            <input type="number" id="dni" name="Documento" required>
-            <!--Localidad-->
-            <fieldset class="padre">
-                <legend>Localidad</legend>
-                <label for="Nacion">Nacion</label>
-                <select name="Nacion" id="Nacion">
-                    <option value="argentina">Argentina</option>
-                </select>
-                <label for="provincia">Provincia</label>
-                <select name="provincia" id="provincia">
-                    <option value="rn">Rio Negro</option>
-                </select>
-            </fieldset>
-            <!--Telefono-->
-            <fieldset class="padre">
-                <legend>Telefono</legend>
-                <label for="Telefono">Pais</label>
-                <select name="pais" id="pais">
-                    <option value="arg">+54</option>
-                </select>
-                <label for="Telefono">Provincia</label>
-                <select name="region" id="region">
-                    <option value="rionegro">299</option>
-                </select>
-                <input type="tel" id="Telefono" name="Telefono" required>
-            </fieldset>
-            <!--Fecha de nacimiento-->
-            <div class="padre">
-                <label for="fecha">Fecha de nacimiento</label>
-            <input type="date" required>
+            <div class="datos">
+                <div class="div-1">
+    
+                    <!--Nombre-->
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <!--Apellido-->
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="apellido" name="apellido" required>
+                </div>
+                <div class="div-2">
+    
+                    <!--Gmailuser-->
+                    <label for="email">Gmail</label>
+                    <input type="email" id="email" name="email" required>
+                    <!--Password-->
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+            </div>
+            <div class="datos">
+                <div class="div-3">
+                    <!--DNI-->
+                    <label for="dni">Documento</label>
+                    <input type="number" id="dni" name="Documento" required>
+    
+                </div class="div-4">
+                <!--Fecha de nacimiento-->
+                <div>
+                    <label for="fecha">Fecha de nacimiento</label>
+                    <input type="date" required>
+                </div>
+
+            </div>
+            <div class="datos">
+                <div class="div-5">
+    
+                    <!--Localidad-->
+                    <fieldset class="padre">
+                        <legend>Localidad</legend>
+                        <label for="Nacion">Nacion</label>
+                        <select name="Nacion" id="Nacion">
+                            <option value="argentina">Argentina</option>
+                        </select>
+                        <label for="provincia">Provincia</label>
+                        <select name="provincia" id="provincia">
+                            <option value="rn">Rio Negro</option>
+                        </select>
+                    </fieldset>
+                </div>
+                <div class="div-6">
+                    <!--Telefono-->
+                    <fieldset class="padre">
+                        <legend>Telefono</legend>
+                        <label for="Telefono">Pais</label>
+                        <select name="pais" id="pais">
+                            <option value="arg">+54</option>
+                        </select>
+                        <label for="Telefono">Provincia</label>
+                        <select name="region" id="region">
+                            <option value="rionegro">299</option>
+                        </select>
+                        <input type="tel" id="Telefono" name="Telefono" required>
+                    </fieldset>
+                </div>
+            </div>
+            <div>
+               <input class="enviar" type="submit" value="Enviar">
             </div>
         </form>
-        </form>
     </main>
-    <footer></footer>
+    <footer>
+        <ul>
+            <li>Ainara Parra</li>
+            <li><a href="https://cet30.edu.ar/"><img src="https://www.cet30.edu.ar/assets/logo.png" alt="" width="35px"></a></li>
+        </ul>
+    </footer>
 </body>
 
 </html>
